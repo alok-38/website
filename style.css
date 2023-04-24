@@ -1,7 +1,30 @@
 img {
     /* setting the maximum width of the image to 100% of its container, and the height to auto, which will preserve the image's aspect ratio. */
+    display: block;
     max-width: 100%;
     height: auto;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+figcaption {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+body{
+    width: 75%;
+    margin: 0 auto;
 }
 
 /* This means that when the screen size is smaller than 600px, the image will resize to fit the width of the screen while maintaining its aspect ratio, making it responsive to different screen sizes. */
