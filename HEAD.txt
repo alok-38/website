@@ -1,8 +1,0 @@
-"HEAD -> main" is a reference to the current branch of a Git repository.
-
-In Git, branches are used to represent different lines of development, allowing multiple people to work on a project simultaneously and without interfering with each other's work. The "main" branch, also sometimes called the "master" branch, is typically the default branch in a new Git repository and is the main line of development for the project.
-
-"HEAD" is a reference to the currently checked-out commit in the repository, which is the commit that is currently displayed in your working directory. When you make changes to the files in your repository and commit those changes, the HEAD reference will be updated to point to the new commit.
-
-So "HEAD -> main" means that the currently checked-out commit in the repository is the most recent commit on the "main" branch. This indicates that you are currently working on the main branch and any new commits you make will be added to that branch.
-
