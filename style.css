@@ -1,0 +1,13 @@
+img {
+    /* setting the maximum width of the image to 100% of its container, and the height to auto, which will preserve the image's aspect ratio. */
+    max-width: 100%;
+    height: auto;
+}
+
+/* This means that when the screen size is smaller than 600px, the image will resize to fit the width of the screen while maintaining its aspect ratio, making it responsive to different screen sizes. */
+@media only screen and (max-width: 600px) {
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
