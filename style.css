@@ -1,7 +1,8 @@
 img {
     /* setting the maximum width of the image to 100% of its container, and the height to auto, which will preserve the image's aspect ratio. */
-    display: block;
     max-width: 100%;
+    /* In order to center an image it must be a block level element */
+    display: block;
     height: auto;
     margin: 0 auto;
 }
